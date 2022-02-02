@@ -19,10 +19,7 @@ export function StyledButton(props: any) {
         style={ [styles.button, {backgroundColor: backgroundColor }] }
         onPress={() => onPress()}
       >
-
           <Text style={ [styles.text, {color: textColor} ]}>{content}</Text>
-
-
       </Pressable>
     </View>
   );
