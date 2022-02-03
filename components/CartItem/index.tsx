@@ -5,7 +5,8 @@ import { StyledButton } from "../StyledButton";
 
 const CartItem = (props: any) => {
 
-  const { name, tagName, taglineCTA, image } = props;
+  // const { name, tagName, taglineCTA, image } = props;
+  const { name, tagName, taglineCTA, image } = props.car
 
   return (
     <View style={styles.cartContainer}>

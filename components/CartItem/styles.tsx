@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Dimensions, StyleSheet } from "react-native";
 
 
 
@@ -6,7 +6,9 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     cartContainer: {
         width: '100%',
-        height: '100%',
+        // height: '100%',
+        // qdo era isolado funcionava bem o height, qdo usou no FlatList nao ficou certo. Só tirar 
+        height: Dimensions.get('window').height,
       },
       titles: {
         marginTop: '30%',
